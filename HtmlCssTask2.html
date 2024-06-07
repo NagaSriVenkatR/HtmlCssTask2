@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HtmlCssTask3</title>
+    <script
+      src="https://kit.fontawesome.com/b1d7456c37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="HtmlCssTask2.css" />
+  </head>
+  <body>
+    <div class="heading-page">
+      <div class="heading">
+        <i class="fa-sharp fa-solid fa-d heading-Logo"></i>
+      </div>
+      <div class="heading-name">
+        <div class="head"><h3>Edit Contact</h3></div>
+        <div class="select">
+          <p>
+            dembsky inc. <span> <i class="fa-solid fa-caret-down"></i></span>
+          </p>
+        </div>
+        <div class="icon">
+          <i class="fa-solid fa-gear iconer"></i>
+          <i class="fa-solid fa-circle-question iconer"></i>
+          <i class="fa-solid fa-user iconer"></i>
+        </div>
+      </div>
+    </div>
+    <div class="picture">
+      <div class="picture-icon">
+        <div class="icon-pic">
+          <i class="fa-sharp fa-solid fa-house"></i>
+        </div>
+
+        <div class="icon-pic">
+          <i class="fa-solid fa-id-badge pic"></i>
+        </div>
+
+        <div class="icon-pic">
+          <i class="fa-solid fa-bullhorn"></i>
+        </div>
+        <div class="icon-pic">
+          <i class="fa-solid fa-wand-sparkles"></i>
+        </div>
+
+        <div class="icon-pic">
+          <i class="fa-solid fa-chart-simple"></i>
+        </div>
+
+        <div class="icon-pic">
+          <i class="fa-solid fa-image"></i>
+        </div>
+
+        <div class="icon-pic">
+          <i class="fa-solid fa-circle-dollar-to-slot"></i>
+        </div>
+      </div>
+      <div class="groups">
+        <div class="grouper">
+          <h3 class="gro-head">Groups</h3>
+          <p class="mail basic">Basic Information</p>
+          <p class="mail">Address Information</p>
+          <p class="mail">System Information</p>
+        </div>
+        <div class="grouper">
+          <h3 class="gro-head">Options</h3>
+          <p class="mail">Mailing Lists</p>
+          <p class="mail">View Mailings</p>
+          <p class="mail">Tasks</p>
+          <p class="mail">Notes</p>
+          <p class="mail">Audit Log</p>
+        </div>
+      </div>
+      <div class="form">
+        <h3 class="head-name">Basic Information</h3>
+        <div class="email-cont">
+          <label for="Email" class="email"
+          >Email
+          <span
+            style="
+              background-color: red;
+              height: 10px;
+              width: 10px;
+              border-radius: 50%;
+              display: inline-block;
+            "
+          ></span
+        ></label><br>
+        <input
+          type="email"
+          class="email-input"
+          placeholder="contact@dembsky.me"
+          required
+        />
+        </div>
+        <div class="firstname-container">
+          <label for="Firstname" class="fn ">First Name</label>
+          <label for="Lastname" class="ln">Last Name</label><br>
+          <input type="text" class="fname" placeholder="Mateusz" />
+          <input type="text" class="lname" placeholder="Dembek" />
+        </div>
+        <div class="lastname-container">
+         
+        </div>
+        <div class="fullname-cont">
+          <label for="fullname" class="full">Full Name</label>
+          <input type="text" class="fullname" placeholder="Mateusz Dembek" />
+        </div>
+        <div class="status-cont">
+          <label for="status" class="status"
+          >Status
+          <span
+            style="
+              background-color: red;
+              height: 10px;
+              width: 10px;
+              border-radius: 50%;
+              display: inline-block;
+            "
+          ></span
+        ></label>
+        <label for="tracking" class="tracking"
+          >Tracking
+          <span
+            style="
+              background-color: red;
+              height: 10px;
+              width: 10px;
+              border-radius: 50%;
+              display: inline-block;
+            "
+          ></span
+        ></label><br>
+        <input type="text" class="sn" placeholder="Designer" required />
+        <input type="text" class="track" placeholder="Hell no" required />
+        </div>
+        <h3 class="addressinformation">Address Information</h3>
+        <div class="add-cont">
+          <label for="address" class="address-head">Address</label>
+          <input type="text" class="address" />
+        </div>
+        <div class="addline-cont">
+          <label for="addressline2" class="addline">Address Line 2</label>
+        <input
+          type="text"
+          class="addressline"
+          placeholder="Address Line(if needeed)"
+        />
+        </div>
+        <div class="city-cont">
+          <label for="city" class="city">City</label>
+          <label for="state" class="state">State</label><br>
+          <input type="text" class="cname" placeholder="Bydgoyzcz" />
+          <input type="text" class="statename" placeholder="Kujawsko-Pomorskie" />
+        </div>
+        <div class="zip-cont">
+          <label for="zip" class="zip">Zip-Code</label>
+          <label for="county" class="county">County</label><br>
+          <input type="text" class="zipcode" placeholder="85-123" />
+          <input type="text" class="countyname" placeholder="county" />
+        </div>
+        <div>
+          <label for="country" class="country">Country</label>
+        <input type="text" class="countryname" placeholder="poland" />
+        </div>
+      </div>
+      <div class="input">
+        <div class="group">
+          <div class="group-names">
+            <div class="gr-bt">Group Inputs</div>
+            <div class="si-bt">Single Inputs</div>
+          </div>
+        </div>
+        <div class="group-inputs">
+          <div class="input-head">
+            <h3 class="in-head">Add Group Input</h3>
+            <p class="in-para">
+              Click and drag to add a new input anywhere on the <br />
+              layout,then delete or edit fields to customize
+            </p>
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="search-input" type="text" placeholder="search" />
+          </div>
+          <div class="search-button">
+            <div class="contact-button">
+              <div class="contact-icon"><i class="fa-regular fa-user fa-xl"></i></div>
+              <p class="con-par">
+                <strong>Basic Information</strong> <br />
+                Email ,First Name ,Last Name ,Full <br />
+                Name ,Status ,Tracking
+              </p>
+            </div>
+            <div class="add-info">
+              <div class="add-icon">
+                <i class="fa-solid fa-house-chimney fa-xl" style="background-color: #E7EBF2;color: #BDC1D1;"></i>
+              </div>
+              <p class="add-para">
+                <strong>Address Information</strong> <br />
+                Address,City,State,Zip,County,<br />Country
+              </p>
+            </div>
+            <div class="comp-info">
+              <div class="comp-icon">
+                <i
+                  class="fa-solid fa-city"
+                  style="background-color: #F6C23B;color: #FFEAA4; padding: 10px 5px;"
+                ></i>
+              </div>
+              <p class="comp-para">
+                <strong>Company Information</strong><br />
+                Name,Industry,Department,Title,<br />Role, SIC Code,Comapny
+                Size,Annual <br />Revenue
+              </p>
+            </div>
+            <div class="sales-info">
+              <div class="sales-icon">
+                <i
+                  class="fa-solid fa-user-group"
+                  style="background-color:#FECECD ; color: #FA5657;padding: 0px;border-radius: 50%;border: 3px solid #FA5657;"
+                ></i>
+              </div>
+              <p class="sales-para">
+                <strong>Sales Representative</strong> <br />
+                First Name,Last Name,Email,Phone,<br />Photo
+              </p>
+            </div>
+            <div class="system-info">
+              <div class="system-icon">
+                <i class="fa-solid fa-location-crosshairs fa-lg" style="padding: 5px;
+                background-color: white;color: #002379;padding: 5px;"></i>
+              </div>
+              <p class="system-para">
+                <strong>System Information</strong> <br />
+                Contact Id,External System Id,<br> Source,Source,Usub Reason,Date <br>
+                Joined,Expire Date,Updated Date,<br>Never Put On Hold
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
